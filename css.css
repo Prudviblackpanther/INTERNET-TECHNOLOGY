@@ -1,0 +1,58 @@
+.border {
+    border: 30px solid rgb(0, 17, 255);
+}
+.borderBlue {
+    border: 30px solid blue;
+}
+.row1, .row2, .row3 {
+    margin-bottom: 30px;
+}
+.marginRight {
+    margin-right: 30px;
+}
+.marginLeft {
+    margin-left: 30px;
+}
+.marginTop {
+    margin-top: 90px;
+}
+.marginBottom {
+    margin-Bottom: 40px;
+}
+.margin {
+    margin: 300px 90px;
+}
+.border {
+    border: 30px solid rgba(192, 197, 39, 0.995);
+}
+.borderBlue {
+    border: 30px solid blue;
+}
+.row1, .row2, .row3 {
+    padding-bottom: 30px;
+}
+.paddingRight {
+    padding-right: 60px;
+}
+.paddingLeft {
+    padding-left: 50px;
+}
+.paddingTop {
+    padding-top: 40px;
+}
+.paddingBottom {
+    padding-Bottom: 40px;
+}
+.padding {
+    padding: 10px 20px;
+}
+.gradient-text {
+    background: linear-gradient(to right, rgb(81, 0, 255), orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+  }
