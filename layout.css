@@ -1,14 +1,15 @@
 .containerG {
     height: 300px;
-    width: 100%;
-    border: 1px solid gray;
+    width: 60%;
+    border: 9px solid gray;
     padding: 1em;
     display: grid;
-    grid-template-areas: "one one one two two"
-    "one one two two three"
-    "one three three four four"
-    "one two three four five six";
-    gap: 1em;
+    grid-template-areas: "one two two three three"
+    "four four five three three"
+    "four four five six six"
+    " four four five six six"
+    "seven seven seven seven eight";
+    gap: 0.5em;
 }
 .centerFlex {
     display: flex;
@@ -16,7 +17,7 @@
     justify-content: center;
 }
 .cell {
-    border: 1px solid teal;
+    border: 3px solid teal;
 }
 .oneG {
     grid-area: one;
@@ -26,4 +27,19 @@
 }
 .threeG {
     grid-area: three;
+}
+.fourG {
+    grid-area: four;
+}
+.fiveG {
+    grid-area: five;
+}
+.sixG {
+grid-area: six;
+}
+.sevenG {
+    grid-area: seven;
+}
+.eightG {
+    grid-area: eight;
 }
