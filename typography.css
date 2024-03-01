@@ -1,0 +1,71 @@
+.container {
+    height: 200px;
+    width: 90%;
+    border: 6px solid gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    border: 6px solid rgb(192, 0, 166);
+    padding: em;
+}
+.family {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.size {
+    font-size: 2.5em;
+}
+
+.variant {
+    font-variant: small-caps;
+}
+
+.style {
+    font-style: italic;
+}
+
+.weight {
+    font-weight: 900;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.none {
+    text-decoration: none;
+}
+
+.letter {
+    letter-spacing: 0.5em;
+}
+.word {
+    word-spacing: 1em;
+}
+.line {
+    line-height: 1em;
+}
+.white {
+    white-space: nowrap;
+}
