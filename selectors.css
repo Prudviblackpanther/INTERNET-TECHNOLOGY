@@ -1,0 +1,22 @@
+h1 { color: red; }
+h2.blue { color: rgb(0, 204, 255); }
+.gray { color: rgb(0, 0, 0); }
+#golden { color: rgb(0, 217, 255); }
+.container :nth-child(2n) { background: rgb(173, 2, 185); }
+section > p { color: rgb(129, 96, 96);}
+div:first-child { color: rgb(218, 137, 137);}
+div:nth-child(2n + 1) { color: red;}
+li { color:rgb(255, 71, 4);}
+li {color: aqua;}
+.groceries {background-color: rgb(98, 219, 98);}
+.groceries {
+    height: 100px;
+    width: 30%;
+    border: 0.5px solid rgb(202, 13, 13);
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 9em;
+    flex-wrap: wrap;}
