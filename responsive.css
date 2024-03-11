@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-rows: 2.3fr 2.3fr 2.3fr ;
+    border: 1px solid gray;
+    gap: 1em;
+    box-shadow: 3px 2px gray;
+    text-shadow: 3px 2px gray;
+    background: radial-gradient(red, green, blue);
+@media screen and (max-width: 700px) {
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        display: grid;
+        grid-template-rows: 0.5fr;
+
+    }
+}
+.option {
+    border: 3px solid;
+    padding: 0.5em;
+}
