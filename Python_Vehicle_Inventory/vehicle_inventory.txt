@@ -1,0 +1,2 @@
+Make	Model	Year	Color	Mileage
+2	2	2	2	2
